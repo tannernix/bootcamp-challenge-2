@@ -4,11 +4,14 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tanner Nix portfolio</title>
+    <title>Tanner Nix, Portfolio</title>
     <link rel="stylesheet" href="styles.css">
   </head>
 
   <body>
+    <header>
+    <h1>Hi</hi>
+    </header>
 
   </body>
 </html>
