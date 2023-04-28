@@ -1,3 +1,140 @@
 :root {
+    --main-font: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgb(0, 101, 156);
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background-color: rgb(144, 0, 255);
+    }
+  }
+
+header {
+    background-color: rgb(0, 0, 0);
+}
+
+#h1-header {
+    color: rgb(143, 143, 143);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 30px;
+    padding-top: 10px;
+    display: inline-block;
+}
+
+#welcome {
+    color: white;
+    text-align: center;
+    font-family: var(--main-font);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto; 
+}
+  
+nav > ul > li {
+    padding-right: 18px;
+    padding-left: 18px;
+    padding-bottom: 25px;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 25px;
+}
+
+.about-me, .work, .contact-me, .resume {
+    font-family: var(--main-font);
+    border-style: double;
+    border-width: 4px;
+    border-color: black;
+}
+
+#hi-name {
+    text-align: center;
+    color: rgb(247, 242, 136);
+    font-family: var(--main-font);
+    margin-top: 50px;
+
+}
+
+#about-me, #contact-me, #work, #resume {
+    color: white;
+    font-family: var(--main-font);
+    margin: 5px, 5px, 5px, 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#email, #phone {
+    color: rgb(247, 242, 136);
+}
+
+#small-picture {
+    float:left;
+    padding-left: 20px;
+    padding-top: 30px;
+
+}
+.div-header {
+    display: inline-block
+}
+
+#img-computer {
+    display: flex; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.h2-main {
+    padding-left: 8px;
+}
+
+.list-images {
+    list-style: none;
+}
+
+#bg-image {
+    width: 90%;
+    height: 50%;
+    display: block;
+    padding-left: 3%;
+    padding-bottom: 40px;
+}
+
+.small-image1, .small-image2, .small-image3, .small-image4 {
+    width: 45%;
+    height: 25%;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
     
+}
+
+.resume-line {
+    display: inline;
+}
+
+.resume {
+    padding-bottom: 15px;
+}
+#footer-text {
+    text-align: center;
+    color: rgb(247, 242, 136);
+}
+
+#resume-image {
+    width: 5%;
+    height: 7%;
 }
